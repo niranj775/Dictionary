@@ -10,32 +10,32 @@
 </head>
 <body>
     <div class="container-fluid">
-        
-        <div class="row mb-5">
+
+        <div class="row">
             <div class="col">
-                <nav class="navbar navbar-light bg-light d-flex justify-content-center" style="background-color: #e3f2fd;">
-                    <h2 class=" navbar-brand ">Free Dictionary</h2>
+                <nav class="navbar navbar-light bg-info d-flex justify-content-center" style="background-color: #e3f2fd;">
+                    <h2 class=" navbar-brand text-white">Free Dictionary</h2>
                 </nav>
             </div>
         </div>
 
         <div class="row">
             <div class="col">
-                <div class="card border-dark w-25" >
-                    <input  class=""type="text" name="" id="">
+                <div class="card border-info" >
                     <br>
-                    <button onclick="fetchValue()">Submit</button>
+                        <label for="" class="text-center font-weight-bold">Enter the word:</label>
+                        <input  class="w-25 mr-auto ml-auto" type="text" name="" id="">
+                        <br>
+                        <button class= "btn btn-dark w-25 mr-auto ml-auto" onclick="fetchValue()">Submit</button>
+                    <br>
+                    <div class= "text-center" id="meaning">
+
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col">
-                <div id="meaning">
-
-                </div>
-            </div>
-        </div>
     </div>
     <script src="./script.js"></script>
 </body>
